@@ -17,3 +17,7 @@ grep . /etc/issue*
 * 버전확인2
 
 rpm -qa *-release
+
+* 버전확인3
+
+grep . /etc/*-release
