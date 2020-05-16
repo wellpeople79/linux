@@ -13,3 +13,7 @@ service --status-all|grep +
 * 배포판 버전확인
 
 grep . /etc/issue*
+
+* 버전확인2
+
+rpm -qa *-release
