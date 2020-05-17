@@ -25,3 +25,7 @@ grep . /etc/*-release
 * root password 변경
 
 sudo passwd root
+
+* 메모리 확인
+
+cat /proc/meminfo | grep Mem
