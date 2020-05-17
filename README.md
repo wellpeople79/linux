@@ -21,3 +21,7 @@ rpm -qa *-release
 * 버전확인3
 
 grep . /etc/*-release
+
+* root password 변경
+
+sudo passwd root
